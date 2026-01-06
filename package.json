@@ -1,0 +1,14 @@
+{
+  "name": "lufkin-forum",
+  "version": "1.0.0",
+  "description": "Forum for Lufkin Road Middle School",
+  "main": "backend/server.js",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "cd backend && npm install && npm start",
+    "dev": "npm run build && cd backend && npm run dev"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
