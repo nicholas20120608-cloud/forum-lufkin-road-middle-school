@@ -8,7 +8,7 @@ import Forum from './components/Forum';
 import DMs from './components/DMs';
 import Admin from './components/Admin';
 
-axios.defaults.baseURL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+axios.defaults.baseURL = process.env.REACT_APP_API_URL || '';
 
 function App() {
   const [user, setUser] = useState(null);

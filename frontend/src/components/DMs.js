@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import io from 'socket.io-client';
 
-const socket = io(process.env.REACT_APP_API_URL || 'http://localhost:5000');
+const socket = io(process.env.REACT_APP_API_URL || '');
 
 const DMs = ({ user }) => {
   const [conversations, setConversations] = useState([]);
